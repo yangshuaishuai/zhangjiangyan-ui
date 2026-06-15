@@ -4,7 +4,7 @@
     <div class="info-card" v-if="company">
       <div class="card-header">
         <span class="title">公司信息</span>
-        <van-button type="primary" size="mini" plain @click="goEditCompany">编辑</van-button>
+        <van-button type="primary" size="mini" @click="goEditCompany">编辑</van-button>
       </div>
       <van-cell-group>
         <van-cell title="公司类型" :value="company.type || '暂无'" />

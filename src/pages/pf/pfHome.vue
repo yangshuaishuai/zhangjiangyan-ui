@@ -41,7 +41,7 @@
                 <span>贷款余额 {{ item.loanBalance }}万元</span>
               </div>
             </div>
-            <van-button type="primary" size="mini" plain @click.stop="goCompanyDetail(item)">详情</van-button>
+            <van-button type="primary" size="mini" @click.stop="goCompanyDetail(item)">详情</van-button>
           </div>
           <van-empty v-if="!filteredCompanyList.length" description="暂无公司数据" />
         </div>

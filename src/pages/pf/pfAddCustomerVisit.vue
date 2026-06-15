@@ -4,7 +4,7 @@
     <div class="info-card" v-if="customer">
       <div class="card-header">
         <span class="title">客户信息</span>
-        <van-button type="primary" size="mini" plain @click="goEditCustomer">编辑</van-button>
+        <van-button type="primary" size="mini" @click="goEditCustomer">编辑</van-button>
       </div>
       <van-cell-group>
         <van-cell title="客户编号" :value="customer.custNo || '暂无'" />

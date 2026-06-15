@@ -25,7 +25,7 @@
     <div class="info-card" v-if="companyId && allVisits.length">
       <div class="card-header">
         <span class="title">走访记录</span>
-        <van-button type="warning" size="small" @click="goAddVisit">新增走访</van-button>
+        <van-button type="primary" size="small" @click="goAddVisit">新增走访</van-button>
       </div>
       <div class="visit-total">该公司共 {{ allVisits.length }} 条走访</div>
       <div

@@ -4,7 +4,7 @@
     <div class="info-card">
       <div class="card-header">
         <span class="title">客户信息</span>
-        <van-button type="primary" size="small" plain @click="goEdit">编辑</van-button>
+        <van-button type="primary" size="small" @click="goEdit">编辑</van-button>
       </div>
       <van-cell-group>
         <van-cell title="姓名" :value="customer.name" />
@@ -17,8 +17,8 @@
         <van-cell title="所属公司" :value="customer.companyName || '暂无'" is-link @click="goCompanyDetail" />
       </van-cell-group>
       <div class="card-actions">
-        <van-button type="default" size="small" @click="goEdit">编辑</van-button>
-        <van-button type="info" size="small" round @click="markAsReserve">标记为储备</van-button>
+        <van-button type="primary" size="small" @click="goEdit">编辑</van-button>
+        <van-button type="primary" size="small" @click="markAsReserve">标记为储备</van-button>
       </div>
     </div>
 
@@ -26,7 +26,7 @@
     <div class="info-card">
       <div class="card-header">
         <span class="title">走访记录</span>
-        <van-button type="warning" size="small" @click="goAddVisit">新增走访</van-button>
+        <van-button type="primary" size="small" @click="goAddVisit">新增走访</van-button>
       </div>
       <div class="visit-list" v-if="visitList.length">
         <div class="visit-total">该客户共 {{ visitList.length }} 条走访</div>

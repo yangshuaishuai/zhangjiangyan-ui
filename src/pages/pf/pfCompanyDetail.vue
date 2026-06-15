@@ -4,7 +4,7 @@
     <div class="info-card">
       <div class="card-header">
         <span class="title">公司信息</span>
-        <van-button type="primary" size="small" plain @click="goEdit">编辑</van-button>
+        <van-button type="primary" size="small" @click="goEdit">编辑</van-button>
       </div>
       <van-cell-group>
         <van-cell title="公司名称" :value="company.name" />
@@ -14,8 +14,8 @@
         <van-cell title="贷款余额" :value="company.loanBalance + '万元'" />
       </van-cell-group>
       <div class="card-actions">
-        <van-button type="default" size="small" @click="goEdit">编辑</van-button>
-        <van-button type="info" size="small" round @click="markAsReserve">标记为储备</van-button>
+        <van-button type="primary" size="small" @click="goEdit">编辑</van-button>
+        <van-button type="primary" size="small" @click="markAsReserve">标记为储备</van-button>
       </div>
     </div>
 
@@ -23,7 +23,7 @@
     <div class="info-card">
       <div class="card-header">
         <span class="title">关联客户</span>
-        <van-button type="info" size="small" plain @click="goRelateCustomer">关联客户</van-button>
+        <van-button type="primary" size="small" @click="goRelateCustomer">关联客户</van-button>
       </div>
       <div class="customer-list" v-if="relatedCustomers.length">
         <div
@@ -35,7 +35,7 @@
             <div class="cust-name">{{ item.name }}</div>
             <div class="cust-phone">{{ item.maskedPhone }}</div>
           </div>
-          <van-button type="danger" size="mini" plain @click.stop="removeRelation(item)">删除</van-button>
+          <van-button type="danger" size="mini" @click.stop="removeRelation(item)">删除</van-button>
         </div>
       </div>
       <van-empty v-else description="暂无关联客户" :image-size="60" />
@@ -45,7 +45,7 @@
     <div class="info-card">
       <div class="card-header">
         <span class="title">走访记录</span>
-        <van-button type="warning" size="small" @click="goAddVisit">新增走访</van-button>
+        <van-button type="primary" size="small" @click="goAddVisit">新增走访</van-button>
       </div>
       <div class="visit-list" v-if="visitList.length">
         <div class="visit-total">该公司共 {{ visitList.length }} 条走访</div>
