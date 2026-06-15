@@ -247,7 +247,7 @@ export default {
   background: #f5f6fa;
 
   .search-bar {
-    background: #1989fa;
+    background: #f5f6fa;
     padding: 10px 0;
   }
 
