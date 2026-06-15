@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-overflow-scrolling: touch;
+}
+html,body,#app{
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.font_blue {
+  color: #5176e0;
+}
+.font_lightblue {
+  color: #eef2fc;
+}
+.font_9D0 {
+  color: #9eb9d0;
+}
+.font_fff {
+  color: #fff;
+}
+.font_078 {
+  color: #2b4078;
+}
+.font_469 {
+  color: #606469;
+}
+.font_green {
+  color: #43d290;
+}
+.font_red {
+  color: #f86868;
+}
+.font_469 {
+  color: #606469;
+}

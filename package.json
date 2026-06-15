@@ -1,0 +1,59 @@
+{
+    "name": "mynjfddywsl",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "test": "vue-cli-service build --mode test"
+    },
+    "dependencies": {
+        "@vant/area-data": "^2.1.0",
+        "axios": "^0.21.4",
+        "core-js": "^3.23.3",
+        "crypto-js": "^4.1.1",
+        "element-ui": "^2.15.14",
+        "less": "^3.11.1",
+        "less-loader": "^5.0.0",
+        "md5": "^2.3.0",
+        "postcss-plugin-px2rem": "^0.8.1",
+        "postcss-px2rem": "^0.3.0",
+        "px2rem-loader": "^0.1.9",
+        "qs": "^6.11.0",
+        "sm-crypto": "^0.3.12",
+        "vant": "^2.12.48",
+        "vconsole": "^3.14.6",
+        "vue": "^2.7.0",
+        "vue-baidu-map": "^0.21.22",
+        "vue-router": "^3.5.4",
+        "vuex": "^3.6.2"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^4.5.19",
+        "@vue/cli-plugin-router": "^4.5.19",
+        "@vue/cli-plugin-vuex": "^4.5.19",
+        "@vue/cli-service": "^4.5.19",
+        "babel-plugin-component": "^1.1.1",
+        "babel-plugin-import": "^1.13.5",
+        "vue-template-compiler": "^2.7.0"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ]
+}
